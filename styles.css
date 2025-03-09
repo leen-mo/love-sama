@@ -1,0 +1,44 @@
+body{
+   text-align: center;
+}
+
+img{
+    display: inline-block;
+    width: 24%;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+.pic {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    animation: float 3s infinite ease-in-out;
+    /* transform: rotate(15deg); */
+    /* box-shadow: 0 0 15px #F08784; */
+}
+
+button {
+    background: #F08784;
+    color: white;
+    padding: 10px 20px;
+    font-size: 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+a{
+    color: azure;
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
